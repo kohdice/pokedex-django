@@ -18,6 +18,14 @@ from django.utils.translation import gettext_lazy as _
 
 class BaseUserManager(models.Manager):
     @classmethod
+    def normalize_username(cls, username):
+        return (
+            unicodedata.normalize("NFKC", username)
+            if isinstance(username, str)
+            else username
+        )
+
+    @classmethod
     def normalize_email(cls, email):
         """
         Normalize the email address by lowercasing the domain part of it.
@@ -50,6 +58,12 @@ class BaseUserManager(models.Manager):
 
 
 class AbstractBaseUser(models.Model):
+    is_staff = models.BooleanField(
+        _('staff status'),
+        default=False,
+        help_text=_(
+            'Designates whether the user can log into this admin site.'),
+    )
     username = models.CharField(_("username"), max_length=6)
     email = models.EmailField(_("email address"), unique=True)
     password = models.CharField(_("password"), max_length=128)
