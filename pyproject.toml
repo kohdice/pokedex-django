@@ -40,6 +40,10 @@ no_implicit_optional = true
 warn_return_any = true
 warn_unused_ignores = true
 warn_redundant_casts = true
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "config.settings"
 
 [tool.black]
 line-length = 79

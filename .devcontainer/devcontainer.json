@@ -8,12 +8,34 @@
         "workbench.iconTheme": "material-icon-theme",
         "editor.fontFamily": "Hack Nerd Font",
         "terminal.integrated.fontFamily": "Hack Nerd Font",
+        "[python]": {
+            "editor.tabSize": 4,
+            "editor.formatOnSave": true
+        },
+        "[javascript]": {
+            "editor.tabSize": 2,
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true,
+        },
+        "[html]": {
+            "editor.tabSize": 2
+        },
+        "[css]": {
+            "editor.tabSize": 2,
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "emmet.variables": {
+            "lang": "ja"
+        },
+        "emmet.includeLanguages": {
+            "django-html": "html"
+        },
         // black
         "python.formatting.provider": "black",
         "python.formatting.blackArgs": [
             "--line-length=79"
         ],
-        "editor.formatOnSave": true,
         "editor.rulers": [
             50,
             79
@@ -52,9 +74,10 @@
         // Python
         "ms-python.python",
         "njpwerner.autodocstring",
-        // Formatter, Linter
+        "batisteo.vscode-django",
+        // EditorConfig, Formatter, Linter
+        "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
-        "foxundermoon.shell-format",
         "mikestead.dotenv",
         // Tools
         "yzhang.markdown-all-in-one",
