@@ -66,14 +66,14 @@ class PokemonStatus(models.Model):
     class Meta:
         db_table = "pokemon_status"
 
-    national_pokedex_number = models.ForeignKey(
+    number = models.ForeignKey(
         NationalPokedex,
         verbose_name="National Pokedex Number",
         related_name="national_pokedex_number",
         null=False,
         on_delete=models.PROTECT
     )
-    pokemon_name = models.ForeignKey(
+    name = models.ForeignKey(
         NationalPokedex,
         verbose_name="Pokemon Name",
         related_name="pokemon_name",
