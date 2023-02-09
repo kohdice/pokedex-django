@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y vim \
 
 COPY ./pyproject.toml* ./poetry.lock* ./
 
-RUN poetry install
+RUN poetry install --no-dev
