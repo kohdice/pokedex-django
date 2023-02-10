@@ -7,59 +7,67 @@ class NationalPokedex(models.Model):
         db_table = "national_pokedex"
 
     number = models.PositiveSmallIntegerField(
-        verbose_name="Pokedex number",
-        primary_key=True
+        verbose_name="Pokedex number", primary_key=True
     )
     name = models.CharField(
-        verbose_name="Pokemon Name",
-        max_length=12,
-        unique=True,
-        null=False
+        verbose_name="Pokemon Name", max_length=12, unique=True
     )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
 
 
-class PokemonType(models.Model):
+class TypeMaster(models.Model):
     class Meta:
-        db_table = "pokemon_type"
+        db_table = "type_mst"
 
     type = models.CharField(
-        verbose_name="Type",
-        max_length=5,
-        primary_key=True
+        verbose_name="Type", max_length=5, primary_key=True
     )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
 
 
-class PokemonAbility(models.Model):
+class AbilityMaster(models.Model):
     class Meta:
-        db_table = "pokemon_ability"
+        db_table = "ability_mst"
 
     ability = models.CharField(
-        verbose_name="Ability",
-        max_length=8,
-        primary_key=True
+        verbose_name="Ability", max_length=8, primary_key=True
     )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
 
 
-class PokemonForms(models.Model):
+class FormMaster(models.Model):
     class Meta:
-        db_table = "pokemon_forms"
+        db_table = "forms_mst"
 
     forms = models.CharField(
-        verbose_name="forms",
-        max_length=10,
-        primary_key=True
+        verbose_name="forms", max_length=10, primary_key=True
     )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
 
 
-class Region(models.Model):
+class RegionMaster(models.Model):
     class Meta:
-        db_table = "region"
+        db_table = "region_mst"
 
     region = models.CharField(
-        verbose_name="Region",
-        max_length=4,
-        primary_key=True
+        verbose_name="Region", max_length=4, primary_key=True
     )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
 
 
 class PokemonStatus(models.Model):
@@ -69,93 +77,55 @@ class PokemonStatus(models.Model):
     number = models.ForeignKey(
         NationalPokedex,
         verbose_name="National Pokedex Number",
-        related_name="national_pokedex_number",
-        null=False,
-        on_delete=models.PROTECT
-    )
-    name = models.ForeignKey(
-        NationalPokedex,
-        verbose_name="Pokemon Name",
-        related_name="pokemon_name",
-        null=False,
-        on_delete=models.PROTECT
-    )
-    type_1 = models.ForeignKey(
-        PokemonType,
-        verbose_name="Type_1",
-        related_name="type_1",
-        null=False,
-        on_delete=models.PROTECT
-    )
-    type_2 = models.ForeignKey(
-        PokemonType,
-        verbose_name="Type_2",
-        related_name="type_2",
-        default=None,
-        on_delete=models.PROTECT
-    )
-    ability_1 = models.ForeignKey(
-        PokemonAbility,
-        verbose_name="Ability_1",
-        related_name="ability_1",
-        null=False,
-        on_delete=models.PROTECT
-    )
-    ability_2 = models.ForeignKey(
-        PokemonAbility,
-        verbose_name="Ability_2",
-        related_name="ability_2",
-        default=None,
-        on_delete=models.PROTECT
-    )
-    hidden_ability = models.ForeignKey(
-        PokemonAbility,
-        verbose_name="Hidden_Ability",
-        related_name="hidden_ability",
-        default=None,
-        on_delete=models.PROTECT
-    )
-    hp = models.PositiveSmallIntegerField(
-        verbose_name="Hit Point",
-        null=False
-    )
-    attack = models.PositiveSmallIntegerField(
-        verbose_name="Attack",
-        null=False
-    )
-    defense = models.PositiveSmallIntegerField(
-        verbose_name="Defense",
-        null=False
-    )
-    special_attack = models.PositiveSmallIntegerField(
-        verbose_name="Special Attack",
-        null=False
-    )
-    special_defense = models.PositiveSmallIntegerField(
-        verbose_name="Special Defense",
-        null=False
-    )
-    speed = models.PositiveSmallIntegerField(
-        verbose_name="Speed",
-        null=False
+        on_delete=models.PROTECT,
     )
     forms = models.ForeignKey(
-        PokemonForms,
+        FormMaster,
         verbose_name="Forms",
-        default=False,
-        on_delete=models.PROTECT
+        null=True,
+        default=None,
+        on_delete=models.PROTECT,
     )
     regional_variant = models.ForeignKey(
-        Region,
+        RegionMaster,
         verbose_name="Regional variant",
+        null=True,
         default=None,
-        on_delete=models.PROTECT
+        on_delete=models.PROTECT,
     )
     mega_evolution = models.BooleanField(
-        verbose_name="Mega Evolution",
-        default=False
+        verbose_name="Mega Evolution", default=False
     )
     primal_reversion = models.BooleanField(
-        verbose_name="Primal Reversion",
-        default=False
+        verbose_name="Primal Reversion", default=False
     )
+    hp = models.PositiveSmallIntegerField(verbose_name="Hit Point")
+    attack = models.PositiveSmallIntegerField(
+        verbose_name="Attack",
+    )
+    defense = models.PositiveSmallIntegerField(verbose_name="Defense")
+    special_attack = models.PositiveSmallIntegerField(
+        verbose_name="Special Attack"
+    )
+    special_defense = models.PositiveSmallIntegerField(
+        verbose_name="Special Defense"
+    )
+    speed = models.PositiveSmallIntegerField(verbose_name="Speed")
+    type_1 = models.ForeignKey(
+        TypeMaster,
+        verbose_name="Type 1",
+        related_name="type_1",
+        on_delete=models.PROTECT,
+    )
+    type_2 = models.ForeignKey(
+        TypeMaster,
+        verbose_name="Type 2",
+        related_name="type_2",
+        null=True,
+        default=False,
+        on_delete=models.PROTECT,
+    )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
