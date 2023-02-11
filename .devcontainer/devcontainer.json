@@ -66,7 +66,10 @@
           "tests"
         ],
         // autoDocstring
-        "autoDocstring.docstringFormat": "google"
+        "autoDocstring.docstringFormat": "google",
+        "dotfiles.repository": "apricotfizz/dotfiles-devcontainer",
+        "dotfiles.targetPath": "~/dotfiles",
+        "dotfiles.installCommand": "~/dotfiles/install.sh"
       },
       "extensions": [
         // Docker
