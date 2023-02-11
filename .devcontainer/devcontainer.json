@@ -1,72 +1,72 @@
 {
-    "name": "Django",
-    "dockerComposeFile": "../docker/docker-compose.yml",
-    "postCreateCommand": "bash ./.devcontainer/entrypoint.sh",
-    "service": "app",
-    "workspaceFolder": "/workspace",
-    "customizations": {
+  "name": "Django",
+  "dockerComposeFile": "../docker/docker-compose.yml",
+  "postCreateCommand": "bash ./.devcontainer/entrypoint.sh",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
     "vscode": {
       "settings": {
-          "workbench.colorTheme": "Solarized Dark+",
-          "workbench.iconTheme": "material-icon-theme",
-          "editor.fontFamily": "Hack Nerd Font",
-          "terminal.integrated.fontFamily": "Hack Nerd Font",
-          "[python]": {
-            "editor.tabSize": 4,
-            "editor.formatOnSave": true
-          },
-          "[javascript]": {
-            "editor.tabSize": 2,
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.formatOnSave": true
-          },
-          "[html]": {
-            "editor.tabSize": 2
-          },
-          "[css]": {
-            "editor.tabSize": 2,
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.formatOnSave": true
-          },
-          "emmet.variables": {
-            "lang": "ja"
-          },
-          "emmet.includeLanguages": {
-            "django-html": "html"
-          },
-          // black
-          "python.formatting.provider": "black",
-          "python.formatting.blackArgs": [
-            "--line-length=79"
-          ],
-          "editor.rulers": [
-            50,
-            79
-          ],
-          // flake8
-          "python.linting.lintOnSave": true,
-          "python.linting.enabled": true,
-          "python.linting.pylintEnabled": false,
-          "python.linting.flake8Enabled": true,
-          "python.linting.flake8Args": [
-            "--max-line-length=79",
-            "--ignore=E203, W503", // E203: ":"の前の空白を入れない, W503: 演算子の前に改行しない
-            "--max-complexity=10"
-          ],
-          // isort
-          "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-          },
-          // mypy
-          "python.linting.mypyEnabled": true,
-          // pytest
-          "python.testing.unittestEnabled": false,
-          "python.testing.pytestEnabled": true,
-          "python.testing.pytestArgs": [
-            "tests"
-          ],
-          // autoDocstring
-          "autoDocstring.docstringFormat": "google"
+        "workbench.colorTheme": "Solarized Dark+",
+        "workbench.iconTheme": "material-icon-theme",
+        "editor.fontFamily": "Hack Nerd Font",
+        "terminal.integrated.fontFamily": "Hack Nerd Font",
+        "[python]": {
+          "editor.tabSize": 4,
+          "editor.formatOnSave": true
+        },
+        "[javascript]": {
+          "editor.tabSize": 2,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
+        },
+        "[html]": {
+          "editor.tabSize": 2
+        },
+        "[css]": {
+          "editor.tabSize": 2,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
+        },
+        "emmet.variables": {
+          "lang": "ja"
+        },
+        "emmet.includeLanguages": {
+          "django-html": "html"
+        },
+        // black
+        "python.formatting.provider": "black",
+        "python.formatting.blackArgs": [
+          "--line-length=79"
+        ],
+        "editor.rulers": [
+          50,
+          79
+        ],
+        // flake8
+        "python.linting.lintOnSave": true,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Args": [
+          "--max-line-length=79",
+          "--ignore=E203, W503", // E203: ":"の前の空白を入れない, W503: 演算子の前に改行しない
+          "--max-complexity=10"
+        ],
+        // isort
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+        },
+        // mypy
+        "python.linting.mypyEnabled": true,
+        // pytest
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": [
+          "tests"
+        ],
+        // autoDocstring
+        "autoDocstring.docstringFormat": "google"
       },
       "extensions": [
         // Docker
