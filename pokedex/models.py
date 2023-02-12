@@ -18,6 +18,21 @@ class NationalPokedex(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
 
+class GenderMaster(models.Model):
+    class Meta:
+        db_table = "gender_mst"
+
+    gender = models.CharField(
+        verbose_name="Gender",
+        max_length=2,
+        primary_key=True
+    )
+    created_by = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_by = models.CharField(max_length=255)
+    updated_at = models.DateTimeField(auto_now=True)
+
+
 class TypeMaster(models.Model):
     class Meta:
         db_table = "type_mst"
@@ -78,6 +93,13 @@ class PokemonStatus(models.Model):
         NationalPokedex,
         verbose_name="National Pokedex Number",
         on_delete=models.PROTECT,
+    )
+    gender = models.ForeignKey(
+        GenderMaster,
+        verbose_name="Gender",
+        null=True,
+        default=None,
+        on_delete=models.PROTECT
     )
     forms = models.ForeignKey(
         FormMaster,
