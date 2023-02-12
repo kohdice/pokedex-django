@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH=/workspace
 ENV POETRY_HOME=/opt/poetry
 
-RUN apt-get update && apt-get install -y vim \
+RUN apt-get update && apt-get install -y jq vim \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && curl -sSL https://install.python-poetry.org | python - --git https://github.com/python-poetry/poetry.git@master \
