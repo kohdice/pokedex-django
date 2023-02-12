@@ -11,19 +11,15 @@
         "workbench.iconTheme": "material-icon-theme",
         "editor.fontFamily": "Hack Nerd Font",
         "terminal.integrated.fontFamily": "Hack Nerd Font",
-        "[python]": {
-          "editor.tabSize": 4,
-          "editor.formatOnSave": true
-        },
-        "[javascript]": {
-          "editor.tabSize": 2,
-          "editor.defaultFormatter": "esbenp.prettier-vscode",
-          "editor.formatOnSave": true
-        },
         "[html]": {
           "editor.tabSize": 2
         },
         "[css]": {
+          "editor.tabSize": 2,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
+        },
+        "[javascript]": {
           "editor.tabSize": 2,
           "editor.defaultFormatter": "esbenp.prettier-vscode",
           "editor.formatOnSave": true
@@ -33,6 +29,15 @@
         },
         "emmet.includeLanguages": {
           "django-html": "html"
+        },
+        "[sql]": {
+          "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
+          "editor.formatOnSave": true
+        },
+        "Prettier-SQL.keywordCase": "upper",
+        "[python]": {
+          "editor.tabSize": 4,
+          "editor.formatOnSave": true
         },
         // black
         "python.formatting.provider": "black",
@@ -81,6 +86,8 @@
         "ms-python.python",
         "njpwerner.autodocstring",
         "batisteo.vscode-django",
+        // SQL
+        "inferrinizzard.prettier-sql-vscode",
         // EditorConfig, Formatter, Linter
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
