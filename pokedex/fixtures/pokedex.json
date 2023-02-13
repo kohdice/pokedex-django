@@ -1,0 +1,542 @@
+[
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 1,
+    "fields": {
+      "name": "フシギダネ",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 2,
+    "fields": {
+      "name": "フシギゾウ",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 3,
+    "fields": {
+      "name": "フシギバナ",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 4,
+    "fields": {
+      "name": "ヒトカゲ",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 5,
+    "fields": {
+      "name": "リザード",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 6,
+    "fields": {
+      "name": "リザードン",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 7,
+    "fields": {
+      "name": "ゼニガメ",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 8,
+    "fields": {
+      "name": "カメール",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 9,
+    "fields": {
+      "name": "カメックス",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 10,
+    "fields": {
+      "name": "キャタピー",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 11,
+    "fields": {
+      "name": "トランセル",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 12,
+    "fields": {
+      "name": "バタフリー",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 13,
+    "fields": {
+      "name": "ビードル",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 14,
+    "fields": {
+      "name": "コクーン",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.nationalpokedex",
+    "pk": 15,
+    "fields": {
+      "name": "スピアー",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "あく",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "いわ",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "エスパー",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "かくとう",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "くさ",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "ゴースト",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "こおり",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "じめん",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "でんき",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "どく",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "ドラゴン",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "ノーマル",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "はがね",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "ひこう",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "フェアリー",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "ほのお",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "みず",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.typemaster",
+    "pk": "むし",
+    "fields": {
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 1,
+    "fields": {
+      "number": 1,
+      "type_1": "くさ",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 2,
+    "fields": {
+      "number": 2,
+      "type_1": "くさ",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 3,
+    "fields": {
+      "number": 3,
+      "type_1": "くさ",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 4,
+    "fields": {
+      "number": 4,
+      "type_1": "ほのお",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 5,
+    "fields": {
+      "number": 5,
+      "type_1": "ほのお",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 6,
+    "fields": {
+      "number": 6,
+      "type_1": "ほのお",
+      "type_2": "ひこう",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 7,
+    "fields": {
+      "number": 7,
+      "type_1": "みず",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 8,
+    "fields": {
+      "number": 8,
+      "type_1": "みず",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 9,
+    "fields": {
+      "number": 9,
+      "type_1": "みず",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 10,
+    "fields": {
+      "number": 10,
+      "type_1": "むし",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 11,
+    "fields": {
+      "number": 11,
+      "type_1": "むし",
+      "type_2": null,
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 12,
+    "fields": {
+      "number": 12,
+      "type_1": "むし",
+      "type_2": "ひこう",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 13,
+    "fields": {
+      "number": 13,
+      "type_1": "むし",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 14,
+    "fields": {
+      "number": 14,
+      "type_1": "むし",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  },
+  {
+    "model": "pokedex.pokemontype",
+    "pk": 15,
+    "fields": {
+      "number": 15,
+      "type_1": "むし",
+      "type_2": "どく",
+      "created_by": "apricotfizz",
+      "created_at": "2023-01-01T12:34:56.789Z",
+      "updated_by": "apricotfizz",
+      "updated_at": "2023-01-01T12:34:56.789Z"
+    }
+  }
+]
