@@ -77,7 +77,7 @@
         ],
         // autoDocstring
         "autoDocstring.docstringFormat": "google",
-        "dotfiles.repository": "apricotfizz/dotfiles-devcontainer",
+        "dotfiles.repository": "kohdice/dotfiles-devcontainer",
         "dotfiles.targetPath": "~/dotfiles",
         "dotfiles.installCommand": "~/dotfiles/install.sh"
       },
