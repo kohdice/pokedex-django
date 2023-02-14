@@ -2,7 +2,7 @@
 name = "pokedex"
 version = "0.1.0"
 description = "Pokédex built in django."
-authors = ["ApricotFizz <dev.apricotfizz@gmail.com>"]
+authors = ["kohdice <kohdice@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
