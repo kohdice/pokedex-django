@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH=/workspace
 ENV POETRY_HOME=/opt/poetry
 
-RUN apt-get update && apt-get install -y jq vim \
+RUN apt-get update && apt-get install -y jq neovim \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && curl -sSL https://install.python-poetry.org | python - --git https://github.com/python-poetry/poetry.git@master \
@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y jq vim \
 
 COPY ./pyproject.toml* ./poetry.lock* ./
 
-RUN poetry install --no-dev
+RUN poetry install --only main
