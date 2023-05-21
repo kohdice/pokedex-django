@@ -11,7 +11,7 @@
     <form action="{% url 'accounts:login' %}" method="post">
       {% csrf_token %}
         <p>メールアドレス：<input type="email" name="email" value="{{email}}"></p>
-        <p>パスワード：<input type="password" name="passwor" value="{{password}}"></p>
+        <p>パスワード：<input type="password" name="password" value="{{password}}"></p>
         <input type="submit" value="ログイン">
     </form>
   </main>
